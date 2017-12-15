@@ -1,51 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>EJEMPLO MAQUETACIÓN EN HTML5</title>
-<link rel="stylesheet" href="css/estilo.css">	
-    
-    
+	<meta charset="utf-8">
+	<title>Ejercicio2 - DGPI</title>
+ 
+        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="fonts.css">
 </head>
-
-
+ 
 <body>
+	<div>
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">#derbiSFCvsRBB</span>
+			
+		</a> <!-- / #logo-header -->
  
-
-
-        <!-- Cabecera -->
-        <header>
-            <img src="Media/ejemplo-logotipo.gif" width="189" height="57" alt="logo"  /> 
-            <h1>EJEMPLO MAQUETACIÓN EN HTML5 - Maqueta #1</h1>
-        </header>
-
-        <!-- Contenido -->
-        <section>
-            
-            <figure>
-                    <img src="Media/Koala.jpg" width="200" height="200" alt="foto"  />
-                    <figcaption>Figura: descipción foto</figcaption>
-            </figure>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
-            <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
-
+		<nav>
+			<ul>
+				<li><a href="#">Clasificación</a></li>
+				<li><a href="#">Equipos</a></li>
+				<li><a href="#">Estadísticas</a></li>
+			</ul>
+		</nav><!-- / nav -->
  
-        </section>
+	</header><!-- / #main-header -->
+	</div>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<div  id="img1"  >
 
+	<img id="fondo1" src="benyedder2_3.jpg"   />
 
-        <!-- Contenido relacionado-->
-        <aside>
-                    <p>Contenido Relacionado</p>
-        </aside>
-
-
-
-        <!-- Pie de pagina -->
-        <footer>
-                <a href="http://www.ejemplocodigo.com">www.ejemplocodigo.com</a>
-        </footer>
-
-
+	</div>
+	
+	
+	<div class="social">
+		<ul>
+			<li><a href="http://www.facebook.com/sevillafc" target="_blank" class="icon-facebook"></a></li>
+			<li><a href="http://www.twitter.com/sevillafc" target="_blank" class="icon-twitter"></a></li>
+			
+		</ul>
+	</div>
+	
+	
+	<div class="social1">
+		<ul>
+			<li><a href="http://www.facebook.com/realbetisbalompie" target="_blank" class="icon-facebook"></a></li>
+			<li><a href="http://www.twitter.com/RBetisOficial" target="_blank" class="icon-twitter"></a></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<footer id="main-footer">
+		<p></p>
+	</footer> <!-- / #main-footer -->
+ 
+	
 </body>
 </html>
