@@ -50,7 +50,7 @@ Crear una web y alojarla en GitHub: https://ilopjim.github.io/Ejercicio-2-DGPI/
                 </article>
                 <aside>
                     <h1>CountDown</h1>
-                    <img src="images/arrow.png.png" alt="" id="arrow" />
+                    
                     <p id="zozor_picture"><img src="images/images/zozor.png" alt="Zozor Picture" /></p>
                     <object width='100%' height='auto' data='https://aportavalor.com/wp-content/herramientas/cronometro/cronometro.php?f=Jan%206%202018,%2020:45:00&pre=para%20el%20inicio%20del%20partido&pst=Que%20gane%20el%20mejor!!&c=ff0000&b= grey&s=12&r=retro'>No soporta Object</object>
                 </aside>
